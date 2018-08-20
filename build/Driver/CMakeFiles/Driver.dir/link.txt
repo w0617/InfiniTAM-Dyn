@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDriver.a  CMakeFiles/Driver.dir/InfiniTamDriver.cpp.o
+/usr/bin/ranlib libDriver.a

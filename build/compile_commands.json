@@ -1,0 +1,207 @@
+[
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include -isystem /usr/local/include -isystem /usr/local/include/opencv  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/InfiniTAM.dir/InfiniTAM.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InfiniTAM.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InfiniTAM.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include -isystem /usr/local/include -isystem /usr/local/include/opencv  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InfiniTAM_cli.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InfiniTAM_cli.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ORUtils.dir/CUDADefines.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils",
+  "command": "/usr/bin/c++   -DUSE_LIBPNG -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Utils.dir/FileUtils.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/FileUtils.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/FileUtils.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils",
+  "command": "/usr/bin/c++   -DUSE_LIBPNG -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Utils.dir/ImageIOpfm.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/ImageIOpfm.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/ImageIOpfm.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/ImageSourceEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/ImageSourceEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/IMUSourceEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/IMUSourceEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/Kinect2Engine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/Kinect2Engine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/Kinect2Engine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/OpenNIEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/OpenNIEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/OpenNIEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/PicoFlexxEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/PicoFlexxEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/LibUVCEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/LibUVCEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/LibUVCEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/UIEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/UIEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/UIEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/CLIEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/CLIEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/CLIEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine",
+  "command": "/usr/bin/c++   -DCOMPILE_WITHOUT_Kinect2 -I/usr/local/include/eigen3 -I/usr/local/cuda/include -I/usr/local/OpenNI2/Include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Engine.dir/RealSenseEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/RealSenseEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/RealSenseEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMDepthTracker_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMDepthTracker_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMDepthTracker_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMWeightedICPTracker_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMWeightedICPTracker_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMWeightedICPTracker_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMLowLevelEngine_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMLowLevelEngine_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMLowLevelEngine_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMRenTracker_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMRenTracker_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMRenTracker_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMSceneReconstructionEngine_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMSceneReconstructionEngine_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMSceneReconstructionEngine_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMSwappingEngine_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMSwappingEngine_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMSwappingEngine_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMMeshingEngine_CPU.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMMeshingEngine_CPU.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMMeshingEngine_CPU.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMColorTracker.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMColorTracker.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMColorTracker.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMDenseMapper.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMDenseMapper.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMDepthTracker.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMDepthTracker.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMDepthTracker.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMWeightedICPTracker.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMWeightedICPTracker.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMWeightedICPTracker.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMIMUTracker.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMIMUTracker.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMIMUTracker.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMMainEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMMainEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMRenTracker.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMRenTracker.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMRenTracker.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTrackerFactory.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTrackerFactory.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTrackingController.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTrackingController.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMVisualisationEngine.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMVisualisationEngine.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMGroundTruthTracker.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMGroundTruthTracker.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMGroundTruthTracker.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Objects/ITMPose.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMPose.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMPose.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Utils/ITMCalibIO.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMCalibIO.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMCalibIO.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Utils/ITMOxtsIO.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/ITMLib.dir/Engine/ITMExternalTracker.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMExternalTracker.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMExternalTracker.cpp"
+},
+{
+  "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Driver.dir/InfiniTamDriver.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.cpp",
+  "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.cpp"
+}
+]

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="InfiniTAM" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\eigen3\;CMake Files\..\..\..\..\..\usr\local\share\eigen3\cmake\;CMake Files\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\cmake\;CMake Files\ORUtils\;CMake Files\Utils\;CMake Files\Engine\;CMake Files\ITMLib\;CMake Files\Driver\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="InfiniTAM">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/InfiniTAM" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 InfiniTAM" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="InfiniTAM/fast">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/InfiniTAM" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 InfiniTAM/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="InfiniTAM_cli">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/InfiniTAM_cli" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 InfiniTAM_cli" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="InfiniTAM_cli/fast">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/InfiniTAM_cli" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 InfiniTAM_cli/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ORUtils">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/libORUtils.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/Makefile&quot;  VERBOSE=1 ORUtils" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ORUtils/fast">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/libORUtils.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/Makefile&quot;  VERBOSE=1 ORUtils/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ORUtils/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Utils">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/libUtils.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_LIBPNG" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/Makefile&quot;  VERBOSE=1 Utils" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Utils/fast">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/libUtils.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_LIBPNG" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/Makefile&quot;  VERBOSE=1 Utils/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Utils/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Engine">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/libEngine.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILE_WITHOUT_Kinect2" />
+            <Add directory="/usr/local/OpenNI2/Include" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/Makefile&quot;  VERBOSE=1 Engine" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Engine/fast">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/libEngine.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCOMPILE_WITHOUT_Kinect2" />
+            <Add directory="/usr/local/OpenNI2/Include" />
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/Makefile&quot;  VERBOSE=1 Engine/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Engine/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ITMLib">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/libITMLib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/Makefile&quot;  VERBOSE=1 ITMLib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ITMLib/fast">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/libITMLib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/cuda/include" />
+            <Add directory="/usr/local/include/eigen3" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/Makefile&quot;  VERBOSE=1 ITMLib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/ITMLib/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Driver">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/libDriver.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/Makefile&quot;  VERBOSE=1 Driver" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Driver/fast">
+         <Option output="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/libDriver.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/Makefile&quot;  VERBOSE=1 Driver/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/ImageIOpfm.cpp">
+         <Option target="Driver"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/ImageIOpfm.h">
+         <Option target="Driver"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.cpp">
+         <Option target="Driver"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.h">
+         <Option target="Driver"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/CLIEngine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/CLIEngine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/IMUSourceEngine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/IMUSourceEngine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/ImageSourceEngine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/ImageSourceEngine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/Kinect2Engine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/Kinect2Engine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/LibUVCEngine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/LibUVCEngine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/OpenNIEngine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/OpenNIEngine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/PicoFlexxEngine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/PicoFlexxEngine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/RealSenseEngine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/RealSenseEngine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/UIEngine.cpp">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/UIEngine.h">
+         <Option target="Engine"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMColorTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMDepthTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMLowLevelEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMMeshingEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMPixelUtils.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMRenTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMRepresentationAccess.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMSceneReconstructionEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMSwappingEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMViewBuilder.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMVisualisationEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceAgnostic/ITMWeightedICPTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMColorTracker_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMDepthTracker_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMDepthTracker_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMLowLevelEngine_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMLowLevelEngine_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMMeshingEngine_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMMeshingEngine_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMRenTracker_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMRenTracker_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMSceneReconstructionEngine_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMSceneReconstructionEngine_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMSwappingEngine_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMSwappingEngine_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMWeightedICPTracker_CPU.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CPU/ITMWeightedICPTracker_CPU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMCUDAUtils.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMColorTracker_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMColorTracker_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMDepthTracker_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMDepthTracker_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMLowLevelEngine_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMLowLevelEngine_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMMeshingEngine_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMMeshingEngine_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMRenTracker_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMRenTracker_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMSceneReconstructionEngine_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMSceneReconstructionEngine_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMSwappingEngine_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMSwappingEngine_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMViewBuilder_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMViewBuilder_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMVisualisationEngine_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMVisualisationEngine_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMWeightedICPTracker_CUDA.cu">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/DeviceSpecific/CUDA/ITMWeightedICPTracker_CUDA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMColorTracker.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMColorTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMCompositeTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMDenseMapper.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMDenseMapper.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMDepthTracker.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMDepthTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMExternalTracker.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMExternalTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMGroundTruthTracker.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMGroundTruthTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMIMUCalibrator.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMIMUTracker.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMIMUTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMLowLevelEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMMainEngine.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMMainEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMMeshingEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMRenTracker.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMRenTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMSceneReconstructionEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMSwappingEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTrackerFactory.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTrackerFactory.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTrackingController.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTrackingController.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMViewBuilder.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMVisualisationEngine.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMVisualisationEngine.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMWeightedICPTracker.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMWeightedICPTracker.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/ITMLib.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMDisparityCalib.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMExtrinsics.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMGlobalCache.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMIMUMeasurement.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMImageHierarchy.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMIntrinsics.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMLocalVBA.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMMesh.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMPlainVoxelArray.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMPointCloud.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMPose.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMPose.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMRGBDCalib.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMRenderState.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMRenderState_VH.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMScene.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMSceneHierarchyLevel.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMSceneParams.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMTemplatedHierarchyLevel.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMTrackingState.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMView.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMViewHierarchyLevel.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMViewIMU.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Objects/ITMVoxelBlockHash.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMCalibIO.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMCalibIO.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibDefines.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.cpp">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h">
+         <Option target="ITMLib"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InfiniTAM.cpp">
+         <Option target="InfiniTAM"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InfiniTAM_cli.cpp">
+         <Option target="InfiniTAM_cli"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.cpp">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Cholesky.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/LexicalCast.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Matrix.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MemoryBlock.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MemoryBlockPersister.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/PlatformIndependence.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Vector.h">
+         <Option target="ORUtils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/FileUtils.cpp">
+         <Option target="Utils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/FileUtils.h">
+         <Option target="Utils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/NVTimer.h">
+         <Option target="Utils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\eigen3\cmake\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/eigen3/cmake/Eigen3Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\eigen3\cmake\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\eigen3\cmake\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/cmake/FindOpenNI.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/cmake/FindLibRoyale.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/cmake/FindRealSense.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/cmake/UseOpenMP.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ORUtils\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Utils\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Engine\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ITMLib\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Driver\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

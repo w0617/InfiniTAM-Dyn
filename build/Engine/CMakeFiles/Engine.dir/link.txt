@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEngine.a  CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o CMakeFiles/Engine.dir/Kinect2Engine.cpp.o CMakeFiles/Engine.dir/OpenNIEngine.cpp.o CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o CMakeFiles/Engine.dir/LibUVCEngine.cpp.o CMakeFiles/Engine.dir/UIEngine.cpp.o CMakeFiles/Engine.dir/CLIEngine.cpp.o CMakeFiles/Engine.dir/RealSenseEngine.cpp.o
+/usr/bin/ranlib libEngine.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUtils.a  CMakeFiles/Utils.dir/FileUtils.cpp.o CMakeFiles/Utils.dir/ImageIOpfm.cpp.o
+/usr/bin/ranlib libUtils.a
