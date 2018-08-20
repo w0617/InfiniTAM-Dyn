@@ -166,9 +166,12 @@ void ITMMainEngine::ProcessFrame(ITMUChar4Image *rgbImage, ITMShortImage *rawDep
 
         printf("===================== Draw Mapper ======================\n");
 		denseMapper->ProcessFrame(view, trackingState, scene, renderState_live);
-        printf("===================== Decay Mapper =====================\n");
-        denseMapper->Decay(scene, renderState_live, 3,10, false);
-//                            max_decay_weight,  min_decay_age
+
+        if( settings->decayParams.enabled ) {
+            printf("===================== Decay Mapper =====================\n");
+            denseMapper->Decay(scene, renderState_live, settings->decayParams.max_decay_weight,
+                               settings->decayParams.min_decay_age, false);
+        }
 	}
 
 	// raycast to renderState_live for tracking and free visualisation

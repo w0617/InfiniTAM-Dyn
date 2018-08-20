@@ -106,7 +106,6 @@ InfiniTAM: /usr/lib/x86_64-linux-gnu/libz.so
 InfiniTAM: /usr/local/cuda/lib64/libcudart_static.a
 InfiniTAM: /usr/lib/x86_64-linux-gnu/librt.so
 InfiniTAM: /usr/lib/x86_64-linux-gnu/librt.so
-InfiniTAM: ../InstRecLib/libInstRecLib.a
 InfiniTAM: /usr/lib/libOpenNI2.so
 InfiniTAM: /usr/local/lib/libopencv_stitching.so.3.4.0
 InfiniTAM: /usr/local/lib/libopencv_superres.so.3.4.0

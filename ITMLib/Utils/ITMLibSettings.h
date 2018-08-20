@@ -6,6 +6,7 @@
 #include "../Objects/ITMSceneParams.h"
 #include "../Engine/ITMTracker.h"
 #include "../Engine/ITMGroundTruthTracker.h"
+#include "VoxelDecayParams.h"
 
 namespace ITMLib
 {
@@ -22,8 +23,9 @@ namespace ITMLib
 			} DeviceType;
 
 			/// Select the type of device to use
-			DeviceType deviceType;
+            DeviceType deviceType;
 
+            InfiniTAM::VoxelDecayParams decayParams;
 			/// Enables swapping between host and device.
 			bool useSwapping;
 

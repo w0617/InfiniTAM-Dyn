@@ -106,7 +106,6 @@ InfiniTAM_cli: /usr/lib/x86_64-linux-gnu/libz.so
 InfiniTAM_cli: /usr/local/cuda/lib64/libcudart_static.a
 InfiniTAM_cli: /usr/lib/x86_64-linux-gnu/librt.so
 InfiniTAM_cli: /usr/lib/x86_64-linux-gnu/librt.so
-InfiniTAM_cli: ../InstRecLib/libInstRecLib.a
 InfiniTAM_cli: /usr/lib/libOpenNI2.so
 InfiniTAM_cli: /usr/local/lib/libopencv_stitching.so.3.4.0
 InfiniTAM_cli: /usr/local/lib/libopencv_superres.so.3.4.0

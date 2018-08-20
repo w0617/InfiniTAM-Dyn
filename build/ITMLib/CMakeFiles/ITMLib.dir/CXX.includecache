@@ -919,6 +919,8 @@ memory
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTracker.h
 ../Engine/ITMGroundTruthTracker.h
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMGroundTruthTracker.h
+VoxelDecayParams.h
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
 
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
 ../../ORUtils/MathUtils.h
@@ -957,6 +959,8 @@ stdint.h
 -
 ITMMath.h
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
+
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
 
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
 cuda.h

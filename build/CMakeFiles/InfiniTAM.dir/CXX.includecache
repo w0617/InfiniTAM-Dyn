@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.h
+iostream
+-
+opencv/cv.h
+-
+Eigen/Core
+-
+gflags/gflags.h
+-
+../ITMLib/Engine/ITMMainEngine.h
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMMainEngine.h
+../ITMLib/Utils/VoxelDecayParams.h
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
+../Engine/ImageSourceEngine.h
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/ImageSourceEngine.h
+
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/IMUSourceEngine.h
 ../ITMLib/ITMLib.h
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/ITMLib.h
@@ -697,6 +713,8 @@ memory
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMTracker.h
 ../Engine/ITMGroundTruthTracker.h
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Engine/ITMGroundTruthTracker.h
+VoxelDecayParams.h
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
 
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
 ../../ORUtils/MathUtils.h
@@ -718,6 +736,8 @@ stdint.h
 ITMMath.h
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
 
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
+
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InfiniTAM.cpp
 cstdlib
 -
@@ -737,8 +757,8 @@ Engine/RealSenseEngine.h
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/RealSenseEngine.h
 Engine/PicoFlexxEngine.h
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Engine/PicoFlexxEngine.h
-Utils/ImageIOpfm.h
-/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/ImageIOpfm.h
+Driver/InfiniTamDriver.h
+/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.h
 
 /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
 cuda.h
@@ -2021,6 +2041,18 @@ cstdint
 /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
 
 /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+
+/usr/local/include/opencv/cv.h
+opencv2/core/core_c.h
+/usr/local/include/opencv/opencv2/core/core_c.h
+opencv2/imgproc/imgproc_c.h
+/usr/local/include/opencv/opencv2/imgproc/imgproc_c.h
+opencv2/photo/photo_c.h
+/usr/local/include/opencv/opencv2/photo/photo_c.h
+opencv2/video/tracking_c.h
+/usr/local/include/opencv/opencv2/video/tracking_c.h
+opencv2/objdetect/objdetect_c.h
+/usr/local/include/opencv/opencv2/objdetect/objdetect_c.h
 
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h

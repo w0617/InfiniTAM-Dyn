@@ -201,7 +201,7 @@
 },
 {
   "directory": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build/Driver",
-  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Driver.dir/InfiniTamDriver.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.cpp",
+  "command": "/usr/bin/c++    -I/usr/local/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv -I/usr/local/cuda/include  -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -std=c++11   -o CMakeFiles/Driver.dir/InfiniTamDriver.cpp.o -c /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.cpp",
   "file": "/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.cpp"
 }
 ]

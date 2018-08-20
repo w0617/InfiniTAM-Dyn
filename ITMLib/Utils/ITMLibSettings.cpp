@@ -7,7 +7,7 @@
 using namespace ITMLib::Objects;
 
 ITMLibSettings::ITMLibSettings()
-//	: sceneParams(mu, maxW, voxSize, vFrust_min, vFrust_max, stopIntAtMaxW)
+
 //  It seems that larger mu values lead to denser maps in our case, at the cost of being somewhat
 // more sensitive to noise.
 // maxW = max # of observations to average, per voxel, before a running average starts getting
@@ -20,20 +20,13 @@ ITMLibSettings::ITMLibSettings()
 //	: sceneParams(0.02f, 100, 0.0050f, 0.2f, 3.0f, false)
 // Classic (for most experiments in the thesis)
 //	: sceneParams(0.3f, 10, 0.035f, 0.1f, 30.0f, false)
-
-//    : sceneParams(1.0f, 50, 0.08f, 10.0f, 500.0f, false)
-
-
-
-//f: sceneParams(0.75f, 50, 0.050f, 10.1f, 500.0f, false)
-: sceneParams(1.75f, 50, 0.050f, 0.1f, 300.0f, false)
-
-
-
-//    : sceneParams(0.750f, 50, 0.10f, 10.0f, 300.0f, false)
-
-    // Good, low resolution reconstructions => HUGE scalability.
+// Good, low resolution reconstructions => HUGE scalability.
 //: sceneParams(1.5f, 10, 0.1f, 0.1f, 300.0f, false)
+
+//  : decayParams(bool enabled, int min_decay_age, int max_decay_weight)
+//	: sceneParams(mu, maxW, voxSize, vFrust_min, vFrust_max, stopIntAtMaxW)
+    : decayParams(true, 10, 5), sceneParams(1.75f, 50, 0.050f, 0.1f, 300.0f, false)
+
 {
 	/// depth threshold for the ICP tracker
 	depthTrackerICPThreshold = 0.1f * 0.1f;
@@ -119,12 +112,11 @@ ITMLibSettings::ITMLibSettings()
 		printf("Error: Color tracker requires a voxel type with color information!\n");
 	}
 
-
     ITMLib::Engine::ITMGroundTruthTracker::groundTruthMode = KITTI;
 
 	// When this tracker is used, these parameters get set on engine creation.
     groundTruthPoseFpath = "/home/w/Desktop/DATA/Kitti/00-For-InfiniTAM/00.txt";
-//        groundTruthPoseFpath = "/home/w/Desktop/DATA/Dadao/CamTics.txt";
+    //groundTruthPoseFpath = "/home/w/Desktop/DATA/Dadao/CamTics.txt";
     groundTruthPoseOffset = 0;
 
     sdfLocalBlockNum = 0x2a000; 		// Original: 0x40000

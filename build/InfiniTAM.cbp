@@ -262,6 +262,7 @@
          <Option type="2" />
          <Option compiler="gcc" />
          <Compiler>
+            <Add directory="/usr/local/cuda/include" />
             <Add directory="/usr/local/include" />
             <Add directory="/usr/local/include/eigen3" />
             <Add directory="/usr/local/include/opencv" />
@@ -280,6 +281,7 @@
          <Option type="2" />
          <Option compiler="gcc" />
          <Compiler>
+            <Add directory="/usr/local/cuda/include" />
             <Add directory="/usr/local/include" />
             <Add directory="/usr/local/include/eigen3" />
             <Add directory="/usr/local/include/opencv" />
@@ -292,12 +294,6 @@
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/ImageIOpfm.cpp">
-         <Option target="Driver"/>
-      </Unit>
-      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/ImageIOpfm.h">
-         <Option target="Driver"/>
-      </Unit>
       <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Driver/InfiniTamDriver.cpp">
          <Option target="Driver"/>
       </Unit>
@@ -712,6 +708,9 @@
       <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h">
          <Option target="ITMLib"/>
       </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h">
+         <Option target="ITMLib"/>
+      </Unit>
       <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InfiniTAM.cpp">
          <Option target="InfiniTAM"/>
       </Unit>
@@ -757,6 +756,12 @@
       <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/FileUtils.h">
          <Option target="Utils"/>
       </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/ImageIOpfm.cpp">
+         <Option target="Utils"/>
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/ImageIOpfm.h">
+         <Option target="Utils"/>
+      </Unit>
       <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/Utils/NVTimer.h">
          <Option target="Utils"/>
       </Unit>
@@ -771,6 +776,18 @@
       </Unit>
       <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/eigen3/cmake/Eigen3Targets.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\eigen3\cmake\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />
       </Unit>
       <Unit filename="/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\OpenCV\" />

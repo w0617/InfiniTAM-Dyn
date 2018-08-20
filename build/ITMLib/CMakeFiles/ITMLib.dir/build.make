@@ -2149,6 +2149,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMScen
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMSceneReconstructionEngine_CUDA.cu.o: ../ORUtils/MathUtils.h
@@ -3071,6 +3072,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMView
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMViewBuilder_CUDA.cu.o: ../ORUtils/MathUtils.h
@@ -3539,6 +3541,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisu
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CUDA/ITMLib_generated_ITMVisualisationEngine_CUDA.cu.o: ../ORUtils/MathUtils.h

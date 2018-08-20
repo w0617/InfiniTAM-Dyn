@@ -80,6 +80,7 @@ Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h

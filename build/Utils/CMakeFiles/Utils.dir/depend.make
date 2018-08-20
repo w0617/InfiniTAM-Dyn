@@ -79,6 +79,7 @@ Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ITMLib/Utils/ITMLibDefines.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ITMLib/Utils/ITMMath.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ORUtils/CUDADefines.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ORUtils/Image.h
 Utils/CMakeFiles/Utils.dir/FileUtils.cpp.o: ../ORUtils/MathUtils.h

@@ -82,6 +82,7 @@ Engine/CMakeFiles/Engine.dir/CLIEngine.cpp.o: ../ITMLib/Utils/ITMLibDefines.h
 Engine/CMakeFiles/Engine.dir/CLIEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/CLIEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/CLIEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/CLIEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/CLIEngine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/CLIEngine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/CLIEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -369,6 +370,7 @@ Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ITMLib/Utils/ITMLibDefine
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/IMUSourceEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -654,6 +656,7 @@ Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ITMLib/Utils/ITMLibDefi
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/ImageSourceEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -940,6 +943,7 @@ Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ITMLib/Utils/ITMLibDefines.
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/Kinect2Engine.cpp.o: ../ORUtils/MathUtils.h
@@ -1226,6 +1230,7 @@ Engine/CMakeFiles/Engine.dir/LibUVCEngine.cpp.o: ../ITMLib/Utils/ITMLibDefines.h
 Engine/CMakeFiles/Engine.dir/LibUVCEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/LibUVCEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/LibUVCEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/LibUVCEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/LibUVCEngine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/LibUVCEngine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/LibUVCEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -1510,6 +1515,7 @@ Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ITMLib/Utils/ITMLibDefines.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/OpenNIEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -1810,6 +1816,7 @@ Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ITMLib/Utils/ITMLibDefine
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/PicoFlexxEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -2096,6 +2103,7 @@ Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ITMLib/Utils/ITMLibDefine
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/RealSenseEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -2383,6 +2391,7 @@ Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ITMLib/Utils/ITMLibDefines.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ORUtils/CUDADefines.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ORUtils/Image.h
 Engine/CMakeFiles/Engine.dir/UIEngine.cpp.o: ../ORUtils/MathUtils.h

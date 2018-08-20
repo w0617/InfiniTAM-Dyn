@@ -83,6 +83,7 @@ CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o: ../ITMLib/Utils/ITMLibDefines.
 CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o: ../ITMLib/Utils/ITMMath.h
 CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o: ../InfiniTAM_cli.cpp
 CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o: ../ORUtils/CUDADefines.h
 CMakeFiles/InfiniTAM_cli.dir/InfiniTAM_cli.cpp.o: ../ORUtils/Image.h

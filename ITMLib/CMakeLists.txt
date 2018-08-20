@@ -159,6 +159,7 @@ Utils/ITMLibDefines.h
 Utils/ITMLibSettings.h
 Utils/ITMMath.h
 Utils/ITMOxtsIO.h
+Utils/VoxelDecayParams.h
 )
 
 #################################################################
@@ -235,13 +236,13 @@ else()
   add_library(ITMLib ${ITMLIB_CPU_OBJECTS} ${ITMLIB_COMMON_OBJECTS})
 endif()
 
-link_directories("/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InstRecLib/")
+#link_directories("/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InstRecLib/")
 
 find_package(Threads)
 
 target_link_libraries(ITMLib ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(ITMLib Utils)
 
-target_link_libraries(ITMLib /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InstRecLib/libInstRecLib.a)
+#target_link_libraries(ITMLib /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InstRecLib/libInstRecLib.a)
 
 

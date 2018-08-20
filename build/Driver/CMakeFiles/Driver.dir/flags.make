@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC -g -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing  -
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I/usr/local/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv -I/usr/local/cuda/include 
 

@@ -100,4 +100,3 @@ target_link_libraries(InfiniTAM Engine)
 target_link_libraries(InfiniTAM Utils)
 target_link_libraries(InfiniTAM ORUtils)
 target_link_libraries(InfiniTAM Driver)
-

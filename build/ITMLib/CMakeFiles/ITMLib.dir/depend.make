@@ -1326,6 +1326,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o:
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o: ../ORUtils/MathUtils.h
@@ -1561,6 +1562,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CP
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CPU.cpp.o: ../ORUtils/MathUtils.h
@@ -2302,6 +2304,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o: ../ITMLib/Utils/ITMLib
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o: ../ORUtils/MathUtils.h
@@ -3490,6 +3493,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o: ../ITMLib/Utils/ITMLibD
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -3968,6 +3972,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o: ../ITMLib/Utils/ITM
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o: ../ORUtils/MathUtils.h
@@ -4250,6 +4255,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o: ../ITMLib/Utils
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o: ../ORUtils/MathUtils.h
@@ -4479,6 +4485,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o: ../ITMLib/Util
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o: ../ORUtils/MathUtils.h
@@ -5217,6 +5224,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o: ../ITMLib/Utils/ITMLibS
 ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o: ../ITMLib/Utils/ITMLibSettings.h
 ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o: ../ITMLib/Utils/ITMMath.h
 ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o: ../ITMLib/Utils/ITMOxtsIO.h
+ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o: ../ITMLib/Utils/VoxelDecayParams.h
 ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o: ../ORUtils/CUDADefines.h
 ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o: ../ORUtils/Image.h
 ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o: ../ORUtils/MathUtils.h

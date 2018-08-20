@@ -1327,6 +1327,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMViewBuilder_CPU.cpp.o
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h
@@ -1562,6 +1563,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/DeviceSpecific/CPU/ITMVisualisationEngine_CP
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h
@@ -2303,6 +2305,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMDenseMapper.cpp.o
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h
@@ -3491,6 +3494,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMMainEngine.cpp.o
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h
@@ -3969,6 +3973,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackerFactory.cpp.o
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h
@@ -4251,6 +4256,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMTrackingController.cpp.o
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h
@@ -4480,6 +4486,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Engine/ITMVisualisationEngine.cpp.o
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h
@@ -5218,6 +5225,7 @@ ITMLib/CMakeFiles/ITMLib.dir/Utils/ITMLibSettings.cpp.o
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMLibSettings.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMMath.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/ITMOxtsIO.h
+ /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ITMLib/Utils/VoxelDecayParams.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/CUDADefines.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/Image.h
  /home/w/Desktop/Reconstruction/InfiniTAM-Dyn/ORUtils/MathUtils.h

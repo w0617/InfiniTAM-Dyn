@@ -311,7 +311,7 @@ GLUT_Xmu_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libXmu.so
 GLUT_glut_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libglut.so
 
 //Dependencies for the target
-ITMLib_LIB_DEPENDS:STATIC=general;/usr/local/cuda/lib64/libcudart_static.a;general;-lpthread;general;dl;general;/usr/lib/x86_64-linux-gnu/librt.so;general;-lpthread;general;Utils;general;/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/InstRecLib/libInstRecLib.a;
+ITMLib_LIB_DEPENDS:STATIC=general;/usr/local/cuda/lib64/libcudart_static.a;general;-lpthread;general;dl;general;/usr/lib/x86_64-linux-gnu/librt.so;general;-lpthread;general;Utils;
 
 //Value Computed by CMake
 InfiniTAM_BINARY_DIR:STATIC=/home/w/Desktop/Reconstruction/InfiniTAM-Dyn/build

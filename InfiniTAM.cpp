@@ -12,7 +12,8 @@
 #include "Engine/RealSenseEngine.h"
 #include "Engine/PicoFlexxEngine.h"
 
-#include "Utils/ImageIOpfm.h"
+#include "Driver/InfiniTamDriver.h"
+
 
 using namespace InfiniTAM::Engine;
 
@@ -24,27 +25,27 @@ using namespace InfiniTAM::Engine;
 */
 static void CreateDefaultImageSource(ImageSourceEngine* & imageSource, IMUSourceEngine* & imuSource, const char *arg1, const char *arg2, const char *arg3, const char *arg4)
 {
-	const char *calibFile = arg1;
-	const char *filename1 = arg2;
-	const char *filename2 = arg3;
-	const char *filename_imu = arg4;
+    const char *calibFile = arg1;
+    const char *filename1 = arg2;
+    const char *filename2 = arg3;
+    const char *filename_imu = arg4;
 
-	printf("using calibration file: %s\n", calibFile);
+    printf("using calibration file: %s\n", calibFile);
 
-	if (filename2 != NULL)
-	{
-		printf("using rgb images: %s\nusing depth images: %s\n", filename1, filename2);
-		if (filename_imu == NULL)
-		{
-			imageSource = new ImageFileReader(calibFile, filename1, filename2);
-		}
-		else
-		{
-			printf("using imu data: %s\n", filename_imu);
-			imageSource = new RawFileReader(calibFile, filename1, filename2, Vector2i(320, 240), 0.5f);
-			imuSource = new IMUSourceEngine(filename_imu);
-		}
-	}
+    if (filename2 != NULL)
+    {
+        printf("using rgb images: %s\nusing depth images: %s\n", filename1, filename2);
+        if (filename_imu == NULL)
+        {
+            imageSource = new ImageFileReader(calibFile, filename1, filename2);
+        }
+        else
+        {
+            printf("using imu data: %s\n", filename_imu);
+            imageSource = new RawFileReader(calibFile, filename1, filename2, Vector2i(320, 240), 0.5f);
+            imuSource = new IMUSourceEngine(filename_imu);
+        }
+    }
 
     if (imageSource == NULL)
     {
@@ -97,12 +98,12 @@ static void CreateDefaultImageSource(ImageSourceEngine* & imageSource, IMUSource
         }
     }
 
-	// this is a hack to ensure backwards compatibility in certain configurations
-	if (imageSource == NULL) return;
-	if (imageSource->calib.disparityCalib.params == Vector2f(0.0f, 0.0f))
-	{
-		imageSource->calib.disparityCalib.type = ITMDisparityCalib::TRAFO_AFFINE;
-		imageSource->calib.disparityCalib.params = Vector2f(1.0f/1000.0f, 0.0f);
+    // this is a hack to ensure backwards compatibility in certain configurations
+    if (imageSource == NULL) return;
+    if (imageSource->calib.disparityCalib.params == Vector2f(0.0f, 0.0f))
+    {
+        imageSource->calib.disparityCalib.type = ITMDisparityCalib::TRAFO_AFFINE;
+        imageSource->calib.disparityCalib.params = Vector2f(1.0f/1000.0f, 0.0f);
     }
 }
 
