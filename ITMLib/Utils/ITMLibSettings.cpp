@@ -115,7 +115,7 @@ ITMLibSettings::ITMLibSettings()
     ITMLib::Engine::ITMGroundTruthTracker::groundTruthMode = KITTI;
 
 	// When this tracker is used, these parameters get set on engine creation.
-    groundTruthPoseFpath = "/home/w/Desktop/DATA/Kitti/00-For-InfiniTAM/00.txt";
+    groundTruthPoseFpath = "/home/w/Desktop/DATA/Kitti/06-For-InfiniTAM/poses.txt";
     //groundTruthPoseFpath = "/home/w/Desktop/DATA/Dadao/CamTics.txt";
     groundTruthPoseOffset = 0;
 
